@@ -26,7 +26,7 @@ sections:
     local_header_title: PAS for Windows
     search_placeholder: Search PAS for Windows
     url_prefix: platform/application-service-windows/2-7
-    local_product_version: 2.6
+    local_product_version: 2.7
     local_header_links: []
     local_header_version_list:
       - url_prefix: http://docs.pivotal.io/pivotalcf/2-6/windows/
