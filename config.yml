@@ -2,6 +2,7 @@
 book_repo: pivotal-cf/docs-book-windows
 layout_repo: pivotal-cf/docs-layout-repo
 layout_repo_ref: 'master'
+layout_repo_ref: 'edge'
 
 feedback_enabled: true
 
@@ -17,18 +18,21 @@ sections:
 - repository:
     name: pivotal-cf/docs-pcf-windows
     at_path: docs-content
-  directory: platform/application-service-windows/2-7
+    ref: 'master'
+  directory: platform/application-service-windows/2-8
   subnav_template: windows-subnav.erb
   product_info:
     use_local_header: true
-    latest_stable_version: 2.7
+    latest_stable_version: 2.8
     local_header_img: /images/cloud_rings.png
     local_header_title: PAS for Windows
     search_placeholder: Search PAS for Windows
-    url_prefix: platform/application-service-windows/2-7
-    local_product_version: 2.7
+    url_prefix: platform/application-service-windows/2-8
+    local_product_version: 2.8
     local_header_links: []
     local_header_version_list:
+      - url_prefix: http://docs.pivotal.io/pivotalcf/2-7/windows/
+        display_name: v2.7
       - url_prefix: http://docs.pivotal.io/pivotalcf/2-6/windows/
         display_name: v2.6
       - url_prefix: http://docs.pivotal.io/pivotalcf/2-5/windows/
