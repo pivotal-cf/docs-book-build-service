@@ -15,3 +15,5 @@ template_variables:
   global_header_product_href: https://network.pivotal.io/
   global_header_product_link_text: Downloads
   gtm_account_id: GTM-MW4LZHR
+  windows_runtime_full: Pivotal Application Service for Windows
+  windows_runtime_abbr: PASW
