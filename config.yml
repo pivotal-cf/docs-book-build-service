@@ -30,6 +30,8 @@ sections:
     local_product_version: 2.7
     local_header_links: []
     local_header_version_list:
+      - url_prefix: http://docs.pivotal.io/pivotalcf/2-8/windows/
+        display_name: v2.8
       - url_prefix: http://docs.pivotal.io/pivotalcf/2-6/windows/
         display_name: v2.6
       - url_prefix: http://docs.pivotal.io/pivotalcf/2-5/windows/
