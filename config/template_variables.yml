@@ -4,7 +4,7 @@ template_variables:
   book_title_short: Pivotal Docs
   title: <span class="title-deemph">Pivotal</span> Documentation
   hero_text: "Detailed documentation to help you install, understand, and succeed with Pivotal's enterprise-grade software."
-  product_name: Pivotal Platform
+  platform_name: Pivotal Platform
   product_abbr: 
   product_url: https://network.pivotal.io/products/pivotal-cf
   product_link: <div class="header-item"><a href="https://network.pivotal.io/products/pivotal-cf">Back to Product Page</a></div>
@@ -17,3 +17,12 @@ template_variables:
   gtm_account_id: GTM-MW4LZHR
   windows_runtime_full: Pivotal Application Service for Windows
   windows_runtime_abbr: PASW
+  app_runtime_full: Pivotal Application Service
+  app_runtime_abbr: PAS
+
+# Deprecated variables (use new variables whenever possible)
+  product_name: Pivotal Platform
+  product_windows_full: Pivotal Application Service for Windows
+  product_windows: PASW
+  product_runtime: Pivotal Application Service
+  product_short: PAS
