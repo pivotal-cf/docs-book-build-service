@@ -5,7 +5,7 @@ template_variables:
   title: <span class="title-deemph">Pivotal</span> Documentation
   hero_text: "Detailed documentation to help you install, understand, and succeed with Pivotal's enterprise-grade software."
   platform_name: Pivotal Platform
-  product_abbr: 
+  product_abbr:
   product_url: https://network.pivotal.io/products/pivotal-cf
   product_link: <div class="header-item"><a href="https://network.pivotal.io/products/pivotal-cf">Back to Product Page</a></div>
   support_link: <a href="http://support.pivotal.io" target="_blank">Support</a>
@@ -19,6 +19,8 @@ template_variables:
   windows_runtime_abbr: PASW
   app_runtime_full: Pivotal Application Service
   app_runtime_abbr: PAS
+  ops_manager_full: Pivotal Operations Manager
+  ops_manager: Ops Manager
 
 # Deprecated variables (use new variables whenever possible)
   product_name: Pivotal Platform
