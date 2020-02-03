@@ -28,3 +28,7 @@ template_variables:
   product_windows: PASW
   product_runtime: Pivotal Application Service
   product_short: PAS
+
+# Book content variables
+  recommended_by: Pivotal
+  
