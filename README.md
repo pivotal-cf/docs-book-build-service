@@ -1,7 +1,12 @@
 #  PAS for Windows
 
 This project can create and publish the documentation for the docs-pcf-windows repo.
-Publishes to https://docs.pivotal.io/platform/application-service-windows/index.html
+
+It publishes to https://docs.pivotal.io/platform/application-service-windows/index.html using these pipelines:
+
++ https://concourse.run.pivotal.io/teams/cf-docs/pipelines/cf-current?group=windows-2-9
++ https://concourse.run.pivotal.io/teams/cf-docs/pipelines/cf-current?group=windows-2-8
++ https://concourse.run.pivotal.io/teams/cf-docs/pipelines/cf-previous-versions?group=windows-2-7
 
 
 In this topic:
