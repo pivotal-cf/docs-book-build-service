@@ -1,6 +1,8 @@
-#  PCF Healthwatch Documentation Book 
+#  PAS for Windows
 
-This project can create and publish the documentation for PCF Healthwatch as a web application.
+This project can create and publish the documentation for the docs-pcf-windows repo.
+Publishes to https://docs.pivotal.io/platform/application-service-windows/index.html
+
 
 In this topic:
 
