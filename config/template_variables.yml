@@ -31,6 +31,7 @@ template_variables:
   windows_runtime_abbr: TAS for VMs &#91;Windows&#93;
   ops_manager_full: Ops Manager
   ops_manager: Ops Manager
+  company_name: VMware
 
 # Deprecated variables (use new variables whenever possible)
   product_name: Pivotal Platform
@@ -40,4 +41,4 @@ template_variables:
   product_short: PAS
 
 # Book content variables
-  recommended_by: Pivotal
+  recommended_by: VMware
