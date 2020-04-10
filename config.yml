@@ -30,21 +30,21 @@ sections:
     local_product_version: 2.8
     local_header_links: []
     local_header_version_list:
-      - url_prefix: https://docs.pivotal.io/platform/application-service-windows/2-8/
+      - url_prefix: https://docs.pivotal.io/platform/application-service-windows/2-8
         display_name: v2.9
-      - url_prefix: https://docs.pivotal.io/platform/application-service-windows/2-7/
+      - url_prefix: https://docs.pivotal.io/platform/application-service-windows/2-7
         display_name: v2.7
-      - url_prefix: https://docs.pivotal.io/pivotalcf/2-6/windows/
+      - url_prefix: https://docs.pivotal.io/pivotalcf/2-6/windows
         display_name: v2.6
-      - url_prefix: https://docs.pivotal.io/pivotalcf/2-5/windows/
+      - url_prefix: https://docs.pivotal.io/pivotalcf/2-5/windows
         display_name: v2.5
-      - url_prefix: https://docs.pivotal.io/pivotalcf/2-4/windows/
+      - url_prefix: https://docs.pivotal.io/pivotalcf/2-4/windows
         display_name: v2.4
-      - url_prefix: https://docs.pivotal.io/pivotalcf/2-3/windows/
+      - url_prefix: https://docs.pivotal.io/pivotalcf/2-3/windows
         display_name: v2.3
-      - url_prefix: https://docs.pivotal.io/pivotalcf/2-2/windows/
+      - url_prefix: https://docs.pivotal.io/pivotalcf/2-2/windows
         display_name: v2.2
-      - url_prefix: https://docs.pivotal.io/pivotalcf/2-1/windows/
+      - url_prefix: https://docs.pivotal.io/pivotalcf/2-1/windows
         display_name: v2.1
-      - url_prefix: https://docs.pivotal.io/pivotalcf/2-0/windows/
+      - url_prefix: https://docs.pivotal.io/pivotalcf/2-0/windows
         display_name: v2.0
