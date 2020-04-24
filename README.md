@@ -45,32 +45,31 @@ Bookbinder to publish our documentation sites, but you can also use Bookbinder t
 version of your documentation on your local machine.
 
 Bookbinder draws the content for the site from this repository, the left navigation menu ("subnav")
-from [docs-book-om](https://github.com/pivotal-cf/docs-book-om), and various layout
+from [docs-book-windows](https://github.com/pivotal-cf/docs-book-windows), and various layout
 configuration and assets from [docs-layout-repo](https://github.com/pivotal-cf/docs-layout-repo).
 
 To use Bookbinder to view your documentation, perform the following steps:
 
 1. Clone this repository to the `~/workspace` directory on your local machine.
-1. Clone the [docs-ops-managerbook](https://github.com/pivotal-cf/docs-ops-manager) and
+1. Clone the [docs-pcf-windows](https://github.com/pivotal-cf/docs-pcf-windows) and
 [docs-layout-repo](https://github.com/pivotal-cf/docs-layout-repo) repositories to the `~/workspace` directory on your
 local machine.
-1. Navigate into the `docs-book-om` directory.
+1. Navigate into the `docs-book-windows` directory.
 1. Run `bundle install` to install all of the necessary gems, including Bookbinder.
 1. Run `bundle exec bookbinder bind local` to build a Rack web-app of the book. After the bind has completed, navigate
-into the `final_app` directory and run `rackup`. Then navigate to `localhost:9292/platform/ops-manager/index.html` in a
-browser.
+into the `final_app` directory and run `rackup`. Then navigate to
+`localhost:9292/platform/application-service-windows/index.html` in a browser.
 
 ## Continuous Integration and Continuous Delivery
 
 We use Concourse pipelines to provide continuous integration and continuous delivery. Any change made to this repository
-or the [https://github.com/pivotal-cf/docs-ops-manager] content repository trigger a "bind" where the disparate parts of
-the Ops Manager documentation are assembled into a single web app. A successful bind triggers pushing the app to the
-staging site,
-[https://docs-pcf-staging.cfapps.io/platform/ops-manager](http://docs-pcf-staging.cfapps.io/platform/ops-manager). After
-review, the staging site is manually pushed to the production site,
-[https://docs.pivotal.io/platform/ops-manager/](https://docs.pivotal.io/platform/ops-manager/).
+or the [https://github.com/pivotal-cf/docs-pcf-windows] content repository trigger a "bind" where the disparate parts of
+the  TAS for VMs [Windows] documentation are assembled into a single web app. A successful bind triggers pushing the
+app to the staging site,
+[https://docs-pcf-staging.cfapps.io/platform/application-service-windows](https://docs-pcf-staging.cfapps.io/platform/application-service-windows).
+After review, the staging site is manually pushed to the production site,
+[https://docs.pivotal.io/platform/application-service-windows](https://docs.pivotal.io/platform/application-service-windows).
 
 Concourse Pipelines:
 
-* **master**: https://concourse.run.pivotal.io/teams/cf-docs/pipelines/om
-* **edge**: https://concourse.run.pivotal.io/teams/cf-docs/pipelines/om?group=edge
+* **master**: https://concourse.run.pivotal.io/teams/cf-docs/pipelines/cf-current
