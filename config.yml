@@ -27,6 +27,7 @@ sections:
     local_header_title: PAS for Windows
     search_placeholder: Search PAS for Windows
     url_prefix: platform/application-service-windows/2-7
+    changelog_href: https://docs.pivotal.io/platform/2-7/release-notes/windows-rn.html
     local_product_version: 2.7
     local_header_links: []
     local_header_version_list:
