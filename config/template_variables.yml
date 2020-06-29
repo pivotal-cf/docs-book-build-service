@@ -394,7 +394,6 @@ template_variables:
   mysql_vm: mysql
   blobstore_link: <a href="https://docs.pivotal.io/platform/2-10/customizing/pas-file-storage.html">Configuring File Storage for TAS for VMs</a>
   loggregator_architecture_syslog: In VMware Tanzu Application Service for VMs (TAS for VMs) v2.10, Loggregator architecture uses Syslog Agents and removes Syslog Adapters.<br/><br/>Platform operators can also enable System Metrics Agents on all VMs deployed with TAS for VMs to collect system-level metrics.
-  configure_system_logging_link: For more information, see the [Configure System Logging](https://docs.pivotal.io/platform/application-service/2-10/operating/configure-pas.html#sys-logging) section of the _Configuring TAS for VMs_ topic.
   enable_docker_link: To enable Docker support, see the [Enable Docker](../../adminguide/docker.html#enable) section of the _Using Docker in TAS for VMs_ topic.
   slow_nozzle_alerts_link: For more information, see the [Slow Nozzle Alerts](../../loggregator/log-ops-guide.html#slow-noz) section of the _Loggregator Guide for TAS for VMs Operators_ topic.
   scaling_nozzles_link: For more information, see the [Scaling Nozzles](../../loggregator/log-ops-guide.html#scaling-nozzles) section of the _Loggregator Guide for TAS for VMs Operators_ topic.
