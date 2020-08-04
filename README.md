@@ -20,13 +20,17 @@ source for this page in GitHub" at the bottom of the topic.
 
 | **Branch Name** | **Content** | **Location** |
 |-----------------|-------------|--------------|
-| `master` | TAS for VMs [Windows] v2.10 pre-release | http://docs-pcf-staging.cfapps.io/platform/application-service-windows/2-10/index.html |
-| `2.9` | TAS for VMs [Windows] v2.9  | https://docs.pivotal.io/platform/application-service-windows/2-10/index.html |
-| `2.8` | TAS for VMs [Windows] v2.8  | https://docs.pivotal.io/platform/application-service-windows/2-10/index.html |
-| `2.7` | TAS for VMs [Windows] v2.7  | https://docs.pivotal.io/platform/application-service-windows/2-10/index.html |
+| `master` | TAS for VMs [Windows] v2.11 pre-release | http://docs-pcf-staging.cfapps.io/platform/application-service-windows/2-11/index.html |
+| `2.10` | TAS for VMs [Windows] v2.10  | https://docs.pivotal.io/platform/application-service-windows/2-10/index.html |
+| `2.9`  | TAS for VMs [Windows] v2.9  | https://docs.pivotal.io/platform/application-service-windows/2-9/index.html |
+| `2.8`  | TAS for VMs [Windows] v2.8  | https://docs.pivotal.io/platform/application-service-windows/2-8/index.html |
+| `2.7`  | TAS for VMs [Windows] v2.7  | https://docs.pivotal.io/platform/application-service-windows/2-7/index.html |
 
-**master**: The `master` branch is used to publish the pre-release v2.10 version of the site. Create pull requests on
-`master` to contribute bug fixes or correct technical inaccuracies in the pre-release v2.10 documentation.
+**master**: The `master` branch is used to publish the pre-release v2.11 version of the site. Create pull requests on
+`master` to contribute bug fixes or correct technical inaccuracies in the pre-release v2.11 documentation.
+
+**2.10**: The `2.10` branch is used to publish the live version of the v2.10 documentation. Create pull requests on
+`2.10` to contribute or correct technical inaccuracies in the v2.10 documentation.
 
 **2.9**: The `2.9` branch is used to publish the live version of the v2.9 documentation. Create pull requests on `2.9`
 to contribute or correct technical inaccuracies in the v2.9 documentation.
