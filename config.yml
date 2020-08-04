@@ -22,7 +22,7 @@ sections:
   subnav_template: windows-subnav.erb
   product_info:
     use_local_header: true
-    latest_stable_version: 2.9
+    latest_stable_version: 2.10
     local_header_img: /images/cloud_rings.png
     local_header_title: Tanzu Application Service for VMs &#91;Windows&#93;
     search_placeholder: Search TAS for VMs &#91;Windows&#93;
