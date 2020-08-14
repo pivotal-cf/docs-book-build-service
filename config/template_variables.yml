@@ -379,7 +379,6 @@ template_variables:
   ssl_termin_gorouter_lb: "/pcf/core/2-10/ssl_termin_gorouter_lb_pcf"
   grootfs_reserved_space: Alternatively, you can configure a lower threshold for Diego Cell disk cleanup in TAS for VMs. For more information, see [Configuring Diego Cell Disk Cleanup Scheduling](../operating/config-cell-cleanup.html).
   grootfs_disk_usage_link: For more information on how to calculate GrootFS disk usage in your deployment, see [Examining GrootFS Disk Usage](../adminguide/examining_grootfs_disk.html).
-  enable_egress: enable the **Enable dynamic egress enforcement (beta)** checkbox in the **Networking** pane of the TAS for VMs tile. Additionally, you must have **Silk** selected for your **Container network interface plugin**.
   zdt_enable: Ensure that the **Disable rolling app deployments** checkbox is not enabled in the **Advanced Features** pane of the VMware Tanzu Application Service for VMs (TAS for VMs) tile.
   switchboard_url: <code>http<span>s</span>://BOSH-JOB-INDEX-proxy-p-mysql-ert.YOUR-SYSTEM-DOMAIN</code>
   footnote_asterisk: <sup>*</sup>
