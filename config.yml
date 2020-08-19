@@ -18,7 +18,7 @@ sections:
     name: pivotal-cf/docs-pcf-windows
     at_path: docs-content
     ref: '2.10'
-  directory: platform/application-service-windows/2-10
+  directory: application-service-windows/2-10
   subnav_template: windows-subnav.erb
   product_info:
     use_local_header: true
@@ -26,16 +26,16 @@ sections:
     local_header_img: /images/cloud_rings.png
     local_header_title: Tanzu Application Service for VMs &#91;Windows&#93;
     search_placeholder: Search TAS for VMs &#91;Windows&#93;
-    url_prefix: platform/application-service-windows/2-10
+    url_prefix: application-service-windows/2-10
     changelog_href: https://docs.pivotal.io/platform/2-10/release-notes/windows-rn.html
     local_product_version: "2.10"
     local_header_links: []
     local_header_version_list:
-      - url_prefix: https://docs.pivotal.io/platform/application-service-windows/2-9
+      - url_prefix: https://docs.pivotal.io/application-service-windows/2-9
         display_name: v2.9
-      - url_prefix: https://docs.pivotal.io/platform/application-service-windows/2-8
+      - url_prefix: https://docs.pivotal.io/application-service-windows/2-8
         display_name: v2.8
-      - url_prefix: https://docs.pivotal.io/platform/application-service-windows/2-7
+      - url_prefix: https://docs.pivotal.io/application-service-windows/2-7
         display_name: v2.7
       - url_prefix: https://docs.pivotal.io/pivotalcf/2-6/windows
         display_name: v2.6
