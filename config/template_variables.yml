@@ -197,8 +197,8 @@ template_variables:
   example_ip_2: 198.51.100.1
   example_ip_3: 203.0.113.1
   external_ips: external IP addresses
-  external_vol_smb_note: <p class="note"><strong>Note:</strong> If you are using Pivotal Application Service for Windows, see <a href="https://docs.pivotal.io/platform/application-service-windows/2-7/smb-volumes-apps.html"> Using SMB Volumes in .NET Apps</a>.</p>
-  external_vol_win_note: <p class="note"><strong>Note:</strong> If you are using Pivotal Application Service for Windows, see <a href="https://docs.pivotal.io/platform/application-service-windows/2-7/smb-volumes-apps.html"> Using SMB Volumes in .NET Apps</a>.<br>NFS is not available on Windows systems.</p>
+  external_vol_smb_note: <p class="note"><strong>Note:</strong> If you are using Pivotal Application Service for Windows, see <a href="https://docs.pivotal.io/application-service-windows/2-7/smb-volumes-apps.html"> Using SMB Volumes in .NET Apps</a>.</p>
+  external_vol_win_note: <p class="note"><strong>Note:</strong> If you are using Pivotal Application Service for Windows, see <a href="https://docs.pivotal.io/application-service-windows/2-7/smb-volumes-apps.html"> Using SMB Volumes in .NET Apps</a>.<br>NFS is not available on Windows systems.</p>
   gen_GSG:
   global_auditor_role:  "<ul><li><strong>Global Auditor</strong>: Read-only access to all Cloud Controller API resources except for secrets, such as environment variables. The Global Auditor role cannot access those values. Assigned the <code>cloud_controller.global_auditor</code> scope in UAA.</li></ul>"
   grant_devs_c2c: open the **App Developer Controls** pane in the PAS tile and enable the **Allow space developers to manage network policies** checkbox
@@ -404,6 +404,6 @@ template_variables:
   using_docker_link: For an explanation of how Docker works in PAS, see [Using Docker in PAS](../../adminguide/docker.html).
   zipkin_tracing_link: For more information about Zipkin tracing, see [Enabling Zipkin Tracing](../adminguide/zipkin_tracing.html).
   app_graceful_shutdown_config: If your apps require a longer period of time to finish in-flight jobs and gracefully shut down, you can increase the graceful shutdown period. For more information, see the [Configure Advanced Features](https://docs.pivotal.io/platform/application-service/2-7/operating/configure-pas.html#advanced) section of the _Configuring PAS_ topic.
-  app_log_limit_config: For more information, see <a href="https://docs.pivotal.io/platform/2-7/release-notes/runtime-rn.html#app-log-limit">Configure App Log Rate Limit (Beta)</a> in the _PAS v2.7 Release Notes_. 
+  app_log_limit_config: For more information, see <a href="https://docs.pivotal.io/platform/2-7/release-notes/runtime-rn.html#app-log-limit">Configure App Log Rate Limit (Beta)</a> in the _PAS v2.7 Release Notes_.
   isolation_segments_smoke_tests: <p class='note'><strong>Note:</strong> If you run smoke tests as a post-deploy errand in the Isolation Segment tile, the smoke tests check if your isolation segment is registered in the CCDB. If the isolation segment is not registered, the smoke tests register it in the CCDB. This eliminates the need to manually register an isolation segment with <code>cf create-isolation-segment</code>. For more information, see <a href="../operating/installing-pcf-is.html#smoke-tests">Smoke Tests</a> in <em>Installing Isolation Segment</em>.</p>
   java_sidecar_note: <p class="note"><strong>Note&#58;</strong> Pivotal Application Service v2.7 does not support using sidecar buildpacks with Java apps.</p>

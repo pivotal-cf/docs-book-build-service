@@ -5,4 +5,6 @@ r301 %r{.*}, 'https://docs.pivotal.io$&', :if => Proc.new { |rack_env|
 
 # Redirects for docs-book-healthwatch
 
-r301 %r{/platform/application-service-windows/(?![\d-]+)(.*)}, "/platform/application-service-windows/2-7/$1"
+r301 %r{/application-service-windows/(?![\d-]+)(.*)}, "/application-service-windows/2-7/$1"
+
+r301 %r{/platform/application-service-windows/(?![\d-]+)(.*)}, "/application-service-windows/2-7/$1"
