@@ -194,8 +194,8 @@ template_variables:
   example_ip_2: 198.51.100.1
   example_ip_3: 203.0.113.1
   external_ips: external IP addresses
-  external_vol_smb_note: <p class="note"><strong>Note:</strong> If you are using VMware Tanzu Application Service for VMs &#91;Windows&#93;, see <a href="https://docs.pivotal.io/platform/application-service-windows/2-10/smb-volumes-apps.html"> Using SMB Volumes in .NET Apps</a>.</p>
-  external_vol_win_note: <p class="note"><strong>Note:</strong> If you are using VMware Tanzu Application Service for VMs &#91;Windows&#93;, see <a href="https://docs.pivotal.io/platform/application-service-windows/2-10/smb-volumes-apps.html"> Using SMB Volumes in .NET Apps</a>.<br>NFS is not available on Windows systems.</p>
+  external_vol_smb_note: <p class="note"><strong>Note:</strong> If you are using VMware Tanzu Application Service for VMs &#91;Windows&#93;, see <a href="https://docs.pivotal.io/application-service-windows/2-10/smb-volumes-apps.html"> Using SMB Volumes in .NET Apps</a>.</p>
+  external_vol_win_note: <p class="note"><strong>Note:</strong> If you are using VMware Tanzu Application Service for VMs &#91;Windows&#93;, see <a href="https://docs.pivotal.io/application-service-windows/2-10/smb-volumes-apps.html"> Using SMB Volumes in .NET Apps</a>.<br>NFS is not available on Windows systems.</p>
   gen_GSG:
   global_auditor_role:  "<ul><li><strong>Global Auditor</strong>: Read-only access to all Cloud Controller API resources except for secrets, such as environment variables. The Global Auditor role cannot access those values. Assigned the <code>cloud_controller.global_auditor</code> scope in UAA.</li></ul>"
   grant_devs_c2c: open the **App Developer Controls** pane in the TAS for VMs tile and enable the **Allow space developers to manage network policies** checkbox
