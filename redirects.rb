@@ -10,3 +10,6 @@ r301 %r'/application-service-windows/2-8/upgrade-2012r2-to-pasw.html', '/applica
 
 r301 %r{/platform/application-service-windows/(?![\d-]+)(.*)}, "/application-service-windows/2-10/$1"
 r301 %r'/platform/application-service-windows/2-8/upgrade-2012r2-to-pasw.html', '/application-service-windows/2-7/upgrade-2012r2-to-pasw.html'
+
+# Redirects from platform/application-service-windows to /application-service-Windows
+r301 %r{/platform/application-service-windows/2-10/(.*)}, '/application-service-windows/2-10/$1'
