@@ -2,7 +2,7 @@
 
 This repository contains metadata for the VMware Tanzu Application Service for VMs [Windows] (TAS for VMs [Windows])
 documentation. We publish the TAS for VMs [Windows] documentation at
-https://docs.pivotal.io/platform/application-service-windows/index.html
+https://docs.pivotal.io/application-service-windows/index.html
 
 ## How To Contribute
 
@@ -20,11 +20,11 @@ source for this page in GitHub" at the bottom of the topic.
 
 | **Branch Name** | **Content** | **Location** |
 |-----------------|-------------|--------------|
-| `master` | TAS for VMs [Windows] v2.11 pre-release | http://docs-pcf-staging.cfapps.io/platform/application-service-windows/2-11/index.html |
-| `2.10` | TAS for VMs [Windows] v2.10  | https://docs.pivotal.io/platform/application-service-windows/2-10/index.html |
-| `2.9`  | TAS for VMs [Windows] v2.9  | https://docs.pivotal.io/platform/application-service-windows/2-9/index.html |
-| `2.8`  | TAS for VMs [Windows] v2.8  | https://docs.pivotal.io/platform/application-service-windows/2-8/index.html |
-| `2.7`  | TAS for VMs [Windows] v2.7  | https://docs.pivotal.io/platform/application-service-windows/2-7/index.html |
+| `master` | TAS for VMs [Windows] v2.11 pre-release | http://docs-pcf-staging.cfapps.io/application-service-windows/2-11/index.html |
+| `2.10` | TAS for VMs [Windows] v2.10  | https://docs.pivotal.io/application-service-windows/2-10/index.html |
+| `2.9`  | TAS for VMs [Windows] v2.9  | https://docs.pivotal.io/application-service-windows/2-9/index.html |
+| `2.8`  | TAS for VMs [Windows] v2.8  | https://docs.pivotal.io/application-service-windows/2-8/index.html |
+| `2.7`  | TAS for VMs [Windows] v2.7  | https://docs.pivotal.io/application-service-windows/2-7/index.html |
 
 **master**: The `master` branch is used to publish the pre-release v2.11 version of the site. Create pull requests on
 `master` to contribute bug fixes or correct technical inaccuracies in the pre-release v2.11 documentation.
@@ -62,7 +62,7 @@ local machine.
 1. Run `bundle install` to install all of the necessary gems, including Bookbinder.
 1. Run `bundle exec bookbinder bind local` to build a Rack web-app of the book. After the bind has completed, navigate
 into the `final_app` directory and run `rackup`. Then navigate to
-`localhost:9292/platform/application-service-windows/index.html` in a browser.
+`localhost:9292/application-service-windows/index.html` in a browser.
 
 ## Continuous Integration and Continuous Delivery
 
@@ -70,9 +70,9 @@ We use Concourse pipelines to provide continuous integration and continuous deli
 or the [https://github.com/pivotal-cf/docs-pcf-windows] content repository trigger a "bind" where the disparate parts of
 the  TAS for VMs [Windows] documentation are assembled into a single web app. A successful bind triggers pushing the
 app to the staging site,
-[https://docs-pcf-staging.cfapps.io/platform/application-service-windows](https://docs-pcf-staging.cfapps.io/platform/application-service-windows).
+[https://docs-pcf-staging.cfapps.io/application-service-windows](https://docs-pcf-staging.cfapps.io/application-service-windows).
 After review, the staging site is manually pushed to the production site,
-[https://docs.pivotal.io/platform/application-service-windows](https://docs.pivotal.io/platform/application-service-windows).
+[https://docs.pivotal.io/application-service-windows](https://docs.pivotal.io/application-service-windows).
 
 Concourse Pipelines:
 
