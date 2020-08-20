@@ -8,3 +8,6 @@ r301 %r{.*}, 'https://docs.pivotal.io$&', :if => Proc.new { |rack_env|
 r301 %r{/application-service-windows/(?![\d-]+)(.*)}, "/application-service-windows/2-7/$1"
 
 r301 %r{/platform/application-service-windows/(?![\d-]+)(.*)}, "/application-service-windows/2-7/$1"
+
+# Redirects from platform/application-service-windows to /application-service-windows
+r301 %r{/platform/application-service-windows/2-7/(.*)}, '/application-service-windows/2-7/$1'
