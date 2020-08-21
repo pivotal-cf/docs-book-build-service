@@ -27,7 +27,7 @@ sections:
     local_header_title: Tanzu Application Service for VMs &#91;Windows&#93;
     search_placeholder: Search TAS for VMs &#91;Windows&#93;
     url_prefix: application-service-windows/2-9
-    changelog_href: https://docs.pivotal.io/platform/2-9/release-notes/windows-rn.html
+    changelog_href: release-notes.html
     local_product_version: 2.9
     local_header_links: []
     local_header_version_list:
