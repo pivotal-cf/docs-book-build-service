@@ -27,7 +27,7 @@ sections:
     local_header_title: PAS for Windows
     search_placeholder: Search PAS for Windows
     url_prefix: application-service-windows/2-8
-    changelog_href: https://docs.pivotal.io/platform/2-8/release-notes/windows-rn.html
+    changelog_href: release-notes.html
     local_product_version: 2.8
     local_header_links: []
     local_header_version_list:
