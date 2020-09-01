@@ -346,7 +346,7 @@ template_variables:
   ssl_term_vsphere: <li><a href="../operating/ssl-term.html" class="subnav">Configuring Pivotal Platform SSL Termination for vSphere Deployments</a></li>
   ssl_tls_subnav: <li><a href="../operating/security_config.html">Providing a Certificate for Your TLS Termination Point</a></li>
   tcp_ert_subnav: <br><li><a href="../operating/tcp-routing-ert-config.html">Configuring TCP Routing in PAS</a></li><br>
-  tls_info_subnav: <li><a href="https://docs.pivotal.io/platform/2-7/security/networking/tls-info.html">TLS Connections in Pivotal Platform Deployments</a></li>
+  tls_info_subnav: <li><a href="https://docs.pivotal.io/ops-manager/2-7/security/networking/tls-info.html">TLS Connections in Pivotal Platform Deployments</a></li>
   vsphere_az_subnav: <li><a href="https://docs.pivotal.io/platform/2-7/customizing/understand-az.html">Availability Zones in vSphere</a></li>
   ha_ert: <p class="note"><strong>Note</strong>&#58; In PCF v1.11 and later, PAS defaults to a highly available resource configuration. However, you may need to complete additional procedures described below to make your deployment highly available.</p>
   enable_invitations: <p class="note"><strong>Note</strong>&#58; The <strong>Enable invitations</strong> checkbox in the <strong>Apps Manager</strong> pane of the PAS tile must be enabled to invite new users.</p>
@@ -386,7 +386,7 @@ template_variables:
   zdt_enable: Ensure that the **Disable rolling app deployments** checkbox is not enabled in the **Advanced Features** pane of the Pivotal Application Service (PAS) tile.
   switchboard_url: <code>http<span>s</span>://BOSH-JOB-INDEX-proxy-p-mysql-ert.YOUR-SYSTEM-DOMAIN</code>
   footnote_asterisk: <sup>*</sup>
-  service_mesh_network_link: For information about the communication ports and protocols used by these components, see the [Service Mesh (Optional)](https://docs.pivotal.io/platform/2-7/security/networking/routing-network-paths.html#service-mesh) in the _Routing Network Communications_ topic.
+  service_mesh_network_link: For information about the communication ports and protocols used by these components, see [Service Mesh](https://docs.pivotal.io/ops-manager/2-7/security/networking/routing-network-paths.html#service-mesh) in _Routing Network Communications_.
   get_auditor_binary: Download the Stack Auditor binary for your OS from [Buildpack Extensions](https://network.pivotal.io/products/buildpack-extensions/) on Pivotal Network.
   droplet_config: <strong>Maximum staged droplets per app</strong> field in the <strong>File Storage</strong> pane of the Pivotal Application Service (PAS) tile.
   vm_note: <p class='note'><strong>Note</strong>&#58; The images below are based on the VM names in an open-source deployment of Cloud Foundry Application Runtime. In PAS, the processes interact in the same way, but are on different VMs. Correct VM names for each process are in the components sections of this topic.</p>
