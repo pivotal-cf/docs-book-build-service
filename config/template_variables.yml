@@ -210,7 +210,7 @@ template_variables:
   kb_link: <a href="https://support.pivotal.io/kb" target="_blank">Knowledge Base</a>
   keepalive: For more information, see [Gorouter Back End Keep-Alive Connections](../adminguide/routing-keepalive.html).
   keepalive_router: An operator can enable the feature by entering a non-zero value for the **Keep-alive connections for the Gorouter** field in the **Networking** pane of the TAS for VMs tile.
-  known_issues: <a href="https://docs.pivotal.io/platform/pcf-release-notes/index.html">Known Issues</a>
+  known_issues: <a href="https://docs.pivotal.io/application-service-windows/2-9/release-notes.html#known-issues">Known Issues</a>
   lb_subnav: <li><a href="https://docs.pivotal.io/platform/2-9/customizing/custom-load-balancer.html" class="subnav">Using Your Own Load Balancer</a></li><p><li><a href="https://docs.pivotal.io/platform/2-9/customizing/elb-ssh-proxy.html">Creating a Proxy ELB for Diego SSH</a></li>
   lb_health_chk_healthy: Unhealthy Threshold
   lb_health_chk_unhealthy: Unhealthy Threshold
