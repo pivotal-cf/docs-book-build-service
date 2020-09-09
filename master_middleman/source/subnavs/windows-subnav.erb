@@ -9,19 +9,16 @@
             <span role="button"><strong><%= vars.platform_name %> Release Notes</strong></span>
             <ul>
                <li class="">
-                  <a href="https://docs.pivotal.io/platform/<%= product_info['local_product_version'].to_s.sub('.','-') %>/release-notes/index.html"><%= vars.platform_name %> Release Notes</a>
-               </li>
-               <li class="">
                   <a href="https://docs.pivotal.io/platform/<%= product_info['local_product_version'].to_s.sub('.','-') %>/release-notes/highlights.html"><%= vars.platform_name %> v2.10 Feature Highlights</a>
                </li>
                <li class="">
                   <a href="https://docs.pivotal.io/platform/<%= product_info['local_product_version'].to_s.sub('.','-') %>/release-notes/breaking-changes.html"><%= vars.platform_name %> v2.10 Breaking Changes</a>
                </li>
                <li class="">
-                  <a href="https://docs.pivotal.io/platform/<%= product_info['local_product_version'].to_s.sub('.','-') %>/release-notes/opsmanager-rn.html">Ops Manager v2.10 Release Notes</a>
+                  <a href="https://docs.pivotal.io/ops-manager/<%= product_info['local_product_version'].to_s.sub('.','-') %>/release-notes.html"><%= vars.ops_manager %> v2.10 Release Notes</a>
                </li>
                <li class="">
-                  <a href="https://docs.pivotal.io/platform/<%= product_info['local_product_version'].to_s.sub('.','-') %>/release-notes/runtime-rn.html"><%= vars.app_runtime_full %> v2.10 Release Notes</a>
+                  <a href="https://docs.pivotal.io/application-service/<%= product_info['local_product_version'].to_s.sub('.','-') %>/overview/release-notes/runtime-rn.html"><%= vars.app_runtime_full %> v2.10 Release Notes</a>
                </li>
                <li class="">
                   <a href="https://docs.pivotal.io/application-service-windows/<%= product_info['local_product_version'].to_s.sub('.','-') %>/release-notes.html"><%= vars.windows_runtime_full %> v2.10 Release Notes</a>
@@ -33,7 +30,7 @@
                   <a href="https://docs.pivotal.io/pks/1-5/release-notes.html">Enterprise PKS v1.5 Release Notes</a>
                </li>
                <li class="">
-                  <a href="https://docs.pivotal.io/platform/<%= product_info['local_product_version'].to_s.sub('.','-') %>/release-notes/segment-rn.html"><%= vars.segment_runtime_full %> v2.10 Release Notes</a>
+                  <a href="https://docs.pivotal.io/application-service/<%= product_info['local_product_version'].to_s.sub('.','-') %>/overview/release-notes/segment-rn.html"><%= vars.segment_runtime_full %> v2.10 Release Notes</a>
                </li>
                <li class="">
                   <a href="https://docs.pivotal.io/platform/stemcells/index.html"><strong>Stemcell Release Notes</strong></a>
