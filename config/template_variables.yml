@@ -325,7 +325,7 @@ template_variables:
   ssl_haproxy_2: <p class="note"><strong>Note</strong><span>:</span> If you are using HAProxy in a PAS deployment, you can choose to terminate SSL/TLS at HAProxy in addition to any of the SSL/TLS termination options above. For more information, see <a href="ssl-term-haproxy.html">Configuring SSL/TLS Termination at HAProxy</a>.</p>
   zipkin_enable: "/pcf/core/2-8/zipkin-pcf-config"
   zipkin_enable_link: <p>When Zipkin tracing is enabled in PAS, the Gorouter examines the HTTP request headers and performs the following:</p>
-  starting_container_count_maximum: For information about how to configure this setting, see the [Set a Maximum Number of Starting Containers](../upgrading/configuring.html#container-starts) section of the _Configuring PAS for Upgrades_ topic.
+  starting_container_count_maximum: For information about how to configure this setting, see [Set a Maximum Number of Starting Containers](https://docs.pivotal.io/application-service/2-8/operating/configuring.html#container-starts) in _Configuring PAS for Upgrades_.
   garden_runc: <p class="note"><strong>Note</strong><span>:</span> PAS v1.8.8 and later use Garden-runC instead of Garden-Linux.</p>
   autoscaler_bullet: <li><a href="../appsman-services/autoscaler/using-autoscaler.html" class="subnav">Scaling an App Using App Autoscaler</a></li>
   autoscaler_note_dev_guide: <p class="note"><strong>Note</strong>&#58; You can configure your app to scale automatically based on rules that you set. For more information, see <a href="../../appsman-services/autoscaler/using-autoscaler.html">Scaling an App Using Autoscaler</a> and <a href="../../appsman-services/autoscaler/using-autoscaler-cli.html">Using the App Autoscaler CLI</a>.</p>
