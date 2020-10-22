@@ -206,7 +206,7 @@ template_variables:
   gsg_app_video_link: <p class="note">See the <a href="https://tanzu.vmware.com/tutorials/getting-started" target="_blank">Getting Started with Tanzu Application Service</a> to learn app deployment concepts.
   health_monitor_footnote: <a href="https://docs.pivotal.io/platform/monitoring/metrics.html#bosh-cf">Configuring a Monitoring System</a>
   http_routing: For more information, see [Securing Traffic into PAS](../adminguide/securing-traffic.html).
-  incompatible_ldap_saml: <p class='note'><strong>Note</strong>&#58; The procedures described here are not compatible with using SAML or LDAP for user identity management. To create and manage user accounts in a SAML- or LDAP-enabled PAS deployment, see <a href='../opsguide/external-user-management.html'>Adding Existing SAML or LDAP Users to a PAS Deployment</a>.</p>
+  incompatible_ldap_saml: <p class='note'><strong>Note</strong>&#58; The procedures described here are not compatible with using SAML or LDAP for user identity management. To create and manage user accounts in a SAML- or LDAP-enabled PAS deployment, see <a href='../operating/external-user-management.html'>Adding Existing SAML or LDAP Users to a PAS Deployment</a>.</p>
   info_loc: In Pivotal Operations Manager
   invite_members: images/pcf/invite-members.png
   ipsec_note: <li>Use the <a href="https://docs.pivotal.io/addon-ipsec/index.html">IPsec add-on</a> to encrypt IP data traffic within your deployment.</li>
