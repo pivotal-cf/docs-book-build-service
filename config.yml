@@ -29,7 +29,9 @@ sections:
     url_prefix: application-service-windows/2-9
     changelog_href: release-notes.html
     local_product_version: 2.9
-    local_header_links: []
+    local_header_links:
+      - <a href="https://network.pivotal.io/products/pas-windows/">Download from Tanzu Network</a>
+      - <a href="https://community.pivotal.io/s/topic/0TO0P000000IKhwWAG/welcome">Knowledge Base</a>
     local_header_version_list:
       - url_prefix: https://docs.pivotal.io/application-service-windows/2-10
         display_name: v2.10
