@@ -53,3 +53,11 @@ sections:
         display_name: v2.1
       - url_prefix: https://docs.pivotal.io/pivotalcf/2-0/windows
         display_name: v2.0
+
+# cross-product resources
+
+- repository:
+    name: pivotal-cf/docs-partials
+    ref: master
+  directory: pcf
+  no_docs: true
