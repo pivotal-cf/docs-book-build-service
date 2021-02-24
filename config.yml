@@ -1,7 +1,7 @@
 ---
 book_repo: pivotal-cf/docs-book-windows
 layout_repo: pivotal-cf/docs-layout-repo
-layout_repo_ref: 'edge'
+layout_repo_ref: "master"
 
 feedback_enabled: true
 
@@ -17,12 +17,12 @@ sections:
 - repository:
     name: pivotal-cf/docs-pcf-windows
     at_path: docs-content
-    ref: 'master'
+    ref: "2.11"
   directory: application-service-windows/2-11
   subnav_template: windows-subnav.erb
   product_info:
     use_local_header: true
-    latest_stable_version: 2.10
+    latest_stable_version: 2.11
     local_header_img: /images/cloud_rings.png
     local_header_title: Tanzu Application Service for VMs &#91;Windows&#93;
     search_placeholder: Search TAS for VMs &#91;Windows&#93;
