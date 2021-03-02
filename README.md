@@ -20,14 +20,18 @@ source for this page in GitHub" at the bottom of the topic.
 
 | **Branch Name** | **Content** | **Location** |
 |-----------------|-------------|--------------|
-| `master` | TAS for VMs [Windows] v2.11 pre-release | http://docs-pcf-staging.cfapps.io/application-service-windows/2-11/index.html |
-| `2.10` | TAS for VMs [Windows] v2.10  | https://docs.pivotal.io/application-service-windows/2-10/index.html |
-| `2.9`  | TAS for VMs [Windows] v2.9  | https://docs.pivotal.io/application-service-windows/2-9/index.html |
-| `2.8`  | TAS for VMs [Windows] v2.8  | https://docs.pivotal.io/application-service-windows/2-8/index.html |
-| `2.7`  | TAS for VMs [Windows] v2.7  | https://docs.pivotal.io/application-service-windows/2-7/index.html |
+| `master` | TAS for VMs [Windows] v2.12 pre-release | http://docs-pcf-staging.cfapps.io/application-service-windows/2-12/index.html |
+| `2.11`   | TAS for VMs [Windows] v2.11             | https://docs.pivotal.io/application-service-windows/2-11/index.html |
+| `2.10`   | TAS for VMs [Windows] v2.10             | https://docs.pivotal.io/application-service-windows/2-10/index.html |
+| `2.9`    | TAS for VMs [Windows] v2.9              | https://docs.pivotal.io/application-service-windows/2-9/index.html |
+| `2.8`    | TAS for VMs [Windows] v2.8              | https://docs.pivotal.io/application-service-windows/2-8/index.html |
+| `2.7`    | TAS for VMs [Windows] v2.7              | https://docs.pivotal.io/application-service-windows/2-7/index.html |
 
-**master**: The `master` branch is used to publish the pre-release v2.11 version of the site. Create pull requests on
-`master` to contribute bug fixes or correct technical inaccuracies in the pre-release v2.11 documentation.
+**master**: The `master` branch is used to publish the pre-release v2.12 version of the site. Create pull requests on
+`master` to contribute bug fixes or correct technical inaccuracies in the pre-release v2.12 documentation.
+
+**2.11**: The `2.11` branch is used to publish the live version of the v2.11 documentation. Create pull requests on
+`2.11` to contribute or correct technical inaccuracies in the v2.11 documentation.
 
 **2.10**: The `2.10` branch is used to publish the live version of the v2.10 documentation. Create pull requests on
 `2.10` to contribute or correct technical inaccuracies in the v2.10 documentation.
@@ -67,13 +71,19 @@ into the `final_app` directory and run `rackup`. Then navigate to
 ## Continuous Integration and Continuous Delivery
 
 We use Concourse pipelines to provide continuous integration and continuous delivery. Any change made to this repository
-or the [https://github.com/pivotal-cf/docs-pcf-windows] content repository trigger a "bind" where the disparate parts of
+or the [https://github.com/pivotal-cf/docs-pcf-windows](https://github.com/pivotal-cf/docs-pcf-windows) content repository trigger a "bind" where the disparate parts of
 the  TAS for VMs [Windows] documentation are assembled into a single web app. A successful bind triggers pushing the
 app to the staging site,
-[https://docs-pcf-staging.cfapps.io/application-service-windows](https://docs-pcf-staging.cfapps.io/application-service-windows).
+[docs-pcf-staging.sc2-04-pcf1-apps.oc.vmware.com/application-service-windows/2-11](docs-pcf-staging.sc2-04-pcf1-apps.oc.vmware.com/application-service-windows/2-11).
 After review, the staging site is manually pushed to the production site,
 [https://docs.pivotal.io/application-service-windows](https://docs.pivotal.io/application-service-windows).
 
 Concourse Pipelines:
 
-* **master**: https://concourse.run.pivotal.io/teams/cf-docs/pipelines/cf-current
+* **2.12**: https://runway-ci.eng.vmware.com/teams/mapbu-docs/pipelines/cf-current?group=windows-2-12
+* **2.11**: https://runway-ci.eng.vmware.com/teams/mapbu-docs/pipelines/cf-current?group=windows-2-11
+* **2.10**: https://runway-ci.eng.vmware.com/teams/mapbu-docs/pipelines/cf-current?group=windows-2-10
+* **2.9**: https://runway-ci.eng.vmware.com/teams/mapbu-docs/pipelines/cf-current?group=windows-2-9
+* **2.8**: https://runway-ci.eng.vmware.com/teams/mapbu-docs/pipelines/cf-current?group=windows-2-8
+* **2.7**: https://runway-ci.eng.vmware.com/teams/mapbu-docs/pipelines/cf-previous-versions?group=windows-2-7
+
