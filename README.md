@@ -71,7 +71,7 @@ into the `final_app` directory and run `rackup`. Then navigate to
 ## Continuous Integration and Continuous Delivery
 
 We use Concourse pipelines to provide continuous integration and continuous delivery. Any change made to this repository
-or the [https://github.com/pivotal-cf/docs-pcf-windows] content repository trigger a "bind" where the disparate parts of
+or the [https://github.com/pivotal-cf/docs-pcf-windows](https://github.com/pivotal-cf/docs-pcf-windows) content repository trigger a "bind" where the disparate parts of
 the  TAS for VMs [Windows] documentation are assembled into a single web app. A successful bind triggers pushing the
 app to the staging site,
 [docs-pcf-staging.sc2-04-pcf1-apps.oc.vmware.com/application-service-windows/2-11](docs-pcf-staging.sc2-04-pcf1-apps.oc.vmware.com/application-service-windows/2-11).
