@@ -22,13 +22,13 @@ sections:
   subnav_template: windows-subnav.erb
   product_info:
     use_local_header: true
-    latest_stable_version: 2.11
+    latest_stable_version: 2.12
     local_header_img: /images/cloud_rings.png
     local_header_title: Tanzu Application Service for VMs &#91;Windows&#93;
     search_placeholder: Search TAS for VMs &#91;Windows&#93;
     url_prefix: application-service-windows/2-12
     changelog_href: release-notes.html
-    local_product_version: "2.11"
+    local_product_version: "2.12"
     local_header_links:
       - <a href="https://network.pivotal.io/products/pas-windows/">Download from Tanzu Network</a>
       - <a href="https://community.pivotal.io/s/topic/0TO0P000000IKhwWAG/welcome">Knowledge Base</a>
