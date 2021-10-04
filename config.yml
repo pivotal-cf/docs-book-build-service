@@ -17,7 +17,7 @@ sections:
 - repository:
     name: pivotal-cf/docs-pcf-windows
     at_path: docs-content
-    ref: 'master'
+    ref: '2.12'
   directory: application-service-windows/2-12
   subnav_template: windows-subnav.erb
   product_info:
