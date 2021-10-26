@@ -2,7 +2,7 @@
 template_variables:
   book_title: VMware Tanzu Documentation
   book_title_short: VMware Tanzu Docs
-  url_path: https://docs.pivotal.io/platform/2-12
+  url_path: https://docs.pivotal.io/platform/2-13
   title: <span class="title-deemph">VMware Tanzu</span> Documentation
   title_image: images/icon-p-green.jpg
   hero_text: "Detailed documentation to help you install, understand, and succeed with VMware Tanzu enterprise-grade software."
@@ -17,8 +17,8 @@ template_variables:
   global_header_product_href: https://network.pivotal.io/
   global_header_product_link_text: Downloads
 
-  current_major_version: "2.12"
-  v_major_version: "v2.12"
+  current_major_version: "2.13"
+  v_major_version: "v2.13"
   api_version: "259"
 
   ga_account_id: UA-39702075-1
@@ -96,7 +96,7 @@ template_variables:
   aws_network_elb: You can also select this option if you are installing Ops Manager on AWS.
   az: <a href="https://docs.pivotal.io/platform/customizing/understand-az.html">availability zones</a>
   azs: You can configure your deployment so that Diego Cells are created across these AZs in the **Assign AZs and Networks** pane of the TAS for VMs tile.
-  azure_deploy: For more information, see <a href="https://docs.pivotal.io/platform/2-12/customizing/azure-prepare-env.html">Preparing to Deploy Ops Manager on Azure</a>.
+  azure_deploy: For more information, see <a href="https://docs.pivotal.io/ops-manager/install/azure-prepare-env.html">Preparing to Deploy Ops Manager on Azure</a>.
   billing_manager_role:
   billing_manager_role_note:
   #BOSH Version-Difference Variables
@@ -117,7 +117,7 @@ template_variables:
   bosh_upload_release: upload-release #v1: upload release
   bosh_upload_stemcell: upload-stemcell #v1: upload stemcell
   # ---end-bosh-version-difference-variables---
-  bosh_cli_link: For more information about using this tool, see [Advanced Troubleshooting with the BOSH CLI](https://docs.pivotal.io/platform/2-12/customizing/trouble-advanced.html).
+  bosh_cli_link: For more information about using this tool, see [Advanced Troubleshooting with the BOSH CLI](https://docs.pivotal.io/ops-manager/2-10/install/trouble-advanced.html).
   bosh_credhub_setup: The BOSH Director and VMware Tanzu Application Service for VMs (TAS for VMs) tiles deploy CredHub instances as part of the installation process. For more information, see [Installing Ops Manager](../installing/).
   blobstore_kb: For more information about the blobstore, see [How to use Elastic Runtime BLOB Storage Data](https://community.pivotal.io/s/article/How-to-use-Elastic-Runtime-BLOB-Storage-Data) in the Knowledge Base.
   capi_link: For more information, see the [CAPI documentation](https://v3-apidocs.cloudfoundry.org/version/3.4.0/index.html).
@@ -390,7 +390,7 @@ template_variables:
   clock_vm: clock_global
   mysql_vm: mysql
   blobstore_link: <a href="https://docs.pivotal.io/platform/2-12/customizing/pas-file-storage.html">Configuring File Storage for TAS for VMs</a>
-  loggregator_architecture_syslog: In VMware Tanzu Application Service for VMs (TAS for VMs) v2.12, Loggregator architecture uses Syslog Agents and removes Syslog Adapters.<br/><br/>Platform operators can also enable System Metrics Agents on all VMs deployed with TAS for VMs to collect system-level metrics.
+  loggregator_architecture_syslog: In VMware Tanzu Application Service for VMs (TAS for VMs) v2.12 and later, Loggregator architecture uses Syslog Agents and removes Syslog Adapters.<br/><br/>Platform operators can also enable System Metrics Agents on all VMs deployed with TAS for VMs to collect system-level metrics.
   enable_docker_link: To enable Docker support, see the [Enable Docker](../../adminguide/docker.html#enable) section of the _Using Docker in TAS for VMs_ topic.
   slow_nozzle_alerts_link: For more information, see the [Slow Nozzle Alerts](../../loggregator/log-ops-guide.html#slow-noz) section of the _Loggregator Guide for TAS for VMs Operators_ topic.
   scaling_nozzles_link: For more information, see the [Scaling Nozzles](../../loggregator/log-ops-guide.html#scaling-nozzles) section of the _Loggregator Guide for TAS for VMs Operators_ topic.
