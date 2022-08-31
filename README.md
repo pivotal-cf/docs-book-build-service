@@ -47,7 +47,7 @@ to contribute or correct technical inaccuracies in the v2.7 documentation.
 
 ## How To Use Bookbinder To View Your Documentation
 
-[Bookbinder](https://github.com/pivotal-cf/bookbinder/blob/master/README.md) is a command-line
+[Bookbinder](https://github.com/pivotal-cf/bookbinder/blob/main/README.md) is a command-line
 utility for stitching Markdown documents into a hostable web app. The documentation team uses
 Bookbinder to publish our documentation sites, but you can also use Bookbinder to view a live
 version of your documentation on your local machine.
@@ -86,4 +86,3 @@ Concourse Pipelines:
 * **2.9**: https://runway-ci.eng.vmware.com/teams/mapbu-docs/pipelines/cf-current?group=windows-2-9
 * **2.8**: https://runway-ci.eng.vmware.com/teams/mapbu-docs/pipelines/cf-current?group=windows-2-8
 * **2.7**: https://runway-ci.eng.vmware.com/teams/mapbu-docs/pipelines/cf-previous-versions?group=windows-2-7
-
